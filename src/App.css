@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+ ul{
+list-style-type : none;
+cursor : pointer
+ }
+li{
+  margin-top: 1%;
+}
+ .sidebar{
+  padding: 0%;
+  margin-top: 0%;
+  color: rgb(255, 255, 255);
+  width: 20vw;
+  height: 100vh;
+  background: #1A3176;
+  position: fixed;
+  align-self: flex-start;
+  margin-left: 0%;
+}
+header{
+   margin-top: 0%;
+  margin-left: 20vw;
+  padding: auto;
+  width: 80vw;
+  position: fixed;
+  align-self: flex-end;
+  height: 12vh;
+  background-color: #fffefe !important
+  
+}
+body{
+  display: flex;
+  background-color: #c4c4c4 !important
+}
+.underlined{
+  text-decoration: #1A3176;
+  text-decoration: underline;
+}
+.tiles{
+  margin-left: 22vw;
+  margin-top: 14vh;
+  /* padding: auto; */
+  position: relative;
+  width: 76vw;
+  height: 12vh;
+  background-color: #ffffff !important
+}
+.card{
+  padding-left: 2vw;
+  padding-right:2vw;
+  width: 30vw;
+  margin-top: 0.1 vh;
+}
+.cardContainer{
+  display: flex;
+margin-top: 2vh;
+}
+.abc{
+  margin-left: 58vw !important;
+}
+.button{
+  cursor: pointer;
+}
+.filter{
+  margin-bottom: 2vh !important;
+  position: sticky;
+}
